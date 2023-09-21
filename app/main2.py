@@ -16,7 +16,9 @@ def run():
   if len(result) > 0:
     country = result[0]
     labels, values = utils.get_population(country)
-    graficas.generate_bar_chart(labels, values)
+    graficas.generate_bar_chart(country['Country'], labels, values)
+  else:
+    print('No encontrado.')
 
 if __name__ == '__main__':
   run()

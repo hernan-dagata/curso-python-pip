@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 
-def generate_bar_chart(labels, values):
+def generate_bar_chart(country, labels, values):
   fig, ax = plt.subplots()
   ax.bar(labels, values)
-  plt.savefig('bar.png')
+  plt.savefig(f'./imgs/bar_{country}.png')
   plt.close()
 
 def generate_pie_chart(labels, values):
