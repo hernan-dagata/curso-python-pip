@@ -1,6 +1,6 @@
 # Steps
 
-# App project
+## App project
 ```sh
 git clone https://github.com/hernan-dagata/curso-python-pip.git
 cd app
